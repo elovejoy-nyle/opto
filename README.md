@@ -1,9 +1,12 @@
 # opto
 An updated opto provissioning script.
-This script does assume the opto has a direct connection to the opto  though. I was also unable to avoid browser macros, and js injection.
+This script does assume the opto has a direct connection to the opto  though. I was also unable to avoid browser macros, and js injection.<br>
+<bold>STATUS:</bold> <br>
+currently only installs the e360 version<br>
+
 <br>Improvements:<br>
 <ul>
-  <li>doesnt expose the system username and passeword</li>
+  <li>doesnt expose the system username and password</li>
   <li>finds MAC / hostname on its own</li>
   <li>Runs on Windows</li>
   <li>Fewer dependencies</li>
