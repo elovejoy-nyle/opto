@@ -17,3 +17,7 @@ Improvements TODO:
       ( For integration into another automation system) <br></li>
 
 </ul>
+
+<br>
+# Requires firefox
+<br>
