@@ -1,0 +1,7 @@
+interestingly the restore function will set the hostname to the unit which provissioned the original configuration. so for the e360, the RIO hostname will become: opto-05-13-a5
+which is the hostname of the RIO which Mike and Dan provissioned long ago. SN: 953189 Device type: GRV-R7-MM1001-10
+
+
+######## NOW I REALLY WANT TO KNOW::: Will the SN and Hostname change for the MCP?? 
+
+
