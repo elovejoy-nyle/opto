@@ -1,12 +1,12 @@
 # opto
 An updated opto provissioning script.
 This script does assume the opto has a direct connection to the opto  though. I was also unable to avoid browser macros, and js injection.
-Improvements:<br>
+<br>Improvements:<br>
 <ul>
   <li>doesnt expose the system username and passeword</li>
   <li>finds MAC / hostname on its own</li>
   <li>Runs on Windows</li>
-  <li></li>
+  <li>Fewer dependencies</li>
 </ul>
 
 
