@@ -19,7 +19,7 @@ urllib3.disable_warnings(urllib3.exceptions.InsecureRequestWarning)
 interface_name = "Ethernet 4"  # Change to match your environment
 username = "nyle"
 password = "nyle1234"
-backup_file_path = "models/e360/grb_12.zip"
+backup_file_path = "models/E360/e360_groov-rio-backup_1_2.zip"
 
 # === SCAPY: MAC SNIFFING ===
 def get_peer_mac(interface):
@@ -115,6 +115,6 @@ driver.find_element(By.NAME, "backup").send_keys(abs_path)
 WebDriverWait(driver, 30).until(EC.element_to_be_clickable((By.ID, "modalButton0")))
 driver.find_element(By.ID, "modalButton0").click()
 
-print("[+] Restore initiated. Please monitor the device for reboot.")
-time.sleep(30)
+print("[+] Restore initiated. Please wait for STAT ligth to turn Green.")
+time.sleep(50) # takes about 50s typicly. closing early hasnt broke it yet, though could be missleading. 
 driver.quit()
