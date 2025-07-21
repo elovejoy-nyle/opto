@@ -20,6 +20,7 @@ interface_name = "Ethernet 4"  # Change to match your environment
 username = "nyle"
 password = "nyle1234"
 backup_file_path = "models/E360/e360_groov-rio-backup_1_2.zip"
+mcp_backup_path = "models/MCP/groov-rio-backup.2024-11-13T22_36_13.zip"
 
 # === SCAPY: MAC SNIFFING ===
 def get_peer_mac(interface):
