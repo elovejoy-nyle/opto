@@ -1,6 +1,19 @@
 # opto
-An updated opto provissioning script, which doesnt expose the system username and passeword, and doesnt require a user to look for the mac address to provission the Opto.
+An updated opto provissioning script.
 This script does assume the opto has a direct connection to the opto  though. I was also unable to avoid browser macros, and js injection.
+Improvements:<br>
+<ul>
+  <li>doesnt expose the system username and passeword</li>
+  <li>finds MAC / hostname on its own</li>
+  <li>Runs on Windows</li>
+  <li></li>
+</ul>
 
 
+Improvements TODO:
+<ul>
+   <li>Detect Ethernet PORT name</li>
+   <li>select upload based on model name, for example C-series, E-series, or MCP...<br>
+      ( For integration into another automation system) <br></li>
 
+</ul>
