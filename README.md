@@ -17,7 +17,8 @@ Improvements TODO:
       ( For integration into another automation system) <br></li>
 
 </ul>
-
+Extended TODO:
+<br>add a function to upgrade the firmware to version 4, which aledgedly fixes the modbus stagnation issue.<br>
 <br>
-# Requires firefox
+<bold>Requires firefox</bold> 
 <br>
